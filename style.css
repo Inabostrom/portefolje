@@ -23,7 +23,8 @@ h3{
 }
 
 .main-header{
-    background: #D1CFBB;
+    /* background: #D1CFBB; */
+    background-color: #5F0303;
     min-height: 55vh;  
     display: flex;
     flex-direction: column; 
