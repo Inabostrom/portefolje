@@ -22,25 +22,94 @@ h3{
     font-weight: 700;
 }
 
+ul.a {
+    list-style-position: inside;
+    
+  }
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.line-height-top{
+    margin-top: 1.5rem;
+}
+
 .main-header{
-    /* background: #D1CFBB; */
-    background-color: #5F0303;
-    min-height: 55vh;  
+    background: #D1CFBB;
+    /* min-height: 55vh;   */
+    min-height: 33vh;
     display: flex;
     flex-direction: column; 
     align-items: center; 
     justify-content: center;
     
-    padding: 6rem;
+    padding: 5rem;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+
+.article-container{
+    margin: auto; 
+    max-width: 50ch;
+}
+
+.list a{
+    list-style-type:lower-alpha;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+
+.line-height{
+    margin-bottom: 1.5rem; 
+}
+
+.ingress{
+    /* line-height: 30px; 
+    font-size: 24px; */
+  line-height: 30px; 
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+
 .backgroundcolor{
-    background-color: black;
-    
+    background-color: #121923;
+}
+
+.backgroundcolor-beige{
+    background-color: #FFEBD8;
+}
+
+.footer-textcenter{
+ color: #cad1dc;
+ display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 3rem;
+}
+
+.line-height{
+    margin-bottom: 3px;
+}
+
+.footer-color{
+    color: #cad1dc;
 }
 
 .main-header h1{ 
     font-size: 6rem;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
 }
 
 .container{
@@ -56,20 +125,94 @@ h3{
 
 .card img{
     width: 100%;
+    /* height: 25rem; */
+    object-fit: cover; 
+}
+
+.process-img{
+    width: 100%;
     height: 25rem;
     object-fit: cover; 
 }
 
+.process-img-default-height {
+    width: 100%;
+    object-fit: cover; 
+}
+
+.process-figma-img-kunstpluss{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover; 
+}
+
+.process-figma-img-kunstpluss2{
+    width: 100%;
+    height: 74rem;
+    object-fit: cover; 
+}
+
+.process-figma-img{
+    width: 100%;
+    height: 17rem;
+    object-fit: cover; 
+}
+
+.process-img-color{
+    width: 100%;
+    height: 35rem;
+    object-fit: cover; 
+}
+
+.process-img-color4{
+    width: 100%;
+    height: 33rem;
+    object-fit: cover; 
+}
+
+.process-img-color2{
+    width: 100%;
+    height: 49rem;
+    object-fit: cover; 
+}
+
+.process-img-color3{
+    width: 100%;
+    height: 53rem;
+    object-fit: cover; 
+}
+
+.font-weight-300{
+    font-weight: 300;
+}
 .card{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-
     margin-bottom: 4rem;
     margin-top: 3rem;
-
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2)
 }
+
+.border{
+    border: 25px solid #ffffff;
+}
+
+.border2{
+    border-top: 42px solid #ffffff;
+    border-left: 8px solid #ffffff;;
+  
+}
+
+
+.border3 img{
+    height: 24rem;
+    border-top: 16px solid #ffffff;
+}
+
+.border2 img{
+    height: 18rem;
+}
+
 
 .card__text{
     padding:3rem;
@@ -78,6 +221,17 @@ h3{
 .card:nth-child(even) img{
     order:2;
 }
+
+.mail-color{
+    font-weight: 400;
+    color: #cad1dc;
+    text-decoration: underline;
+}
+
+.mail-color:hover{
+    color:#4c8bed;
+    /* text-decoration: underline hsl(0, 94%, 19%, .6); */
+} 
 
 a { font-weight: 700;
     color: #5F0303;
